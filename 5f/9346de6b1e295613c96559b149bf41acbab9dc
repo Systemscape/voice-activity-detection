@@ -1,0 +1,49 @@
+Cargo.lock
+  s_b9678e5c6ca206::t_6fc9dbeda79bb1 1-5378
+Cargo.toml
+  s_b9678e5c6ca206::t_818daf54f0d0c3 1-18
+README.md
+  s_b9678e5c6ca206::t_f7832822b7698f 1-72
+justfile
+  s_b9678e5c6ca206::t_49e6cd1bf2422f 1-13
+model/speech_detector.json
+  s_b9678e5c6ca206::t_cff2d62679c51c 1
+src/audio.rs
+  s_b9678e5c6ca206::t_60b767fe7439d7 1-170
+src/bin/infer.rs
+  s_b9678e5c6ca206::t_05fbdb23fb4978 1-53
+src/detection.rs
+  s_b9678e5c6ca206::t_1f149d3884393a 1-66
+src/lib.rs
+  s_3126be20fae9fd::t_421cc9675a95c0 1-2
+src/main.rs
+  s_b9678e5c6ca206::t_2d3ea851958494 1-294
+src/model.rs
+  s_3126be20fae9fd::t_650d267f2205f9 1-149
+src/preprocessing.rs
+  s_3126be20fae9fd::t_27be2be5aab17f 1-203
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5f9346de6b1e295613c96559b149bf41acbab9dc",
+  "prompts": {},
+  "sessions": {
+    "s_3126be20fae9fd": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a177e3-3efa-76e1-878e-ce4ddd03fb54",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Joël Schulz-Andres <joel@systemscape.de>"
+    },
+    "s_b9678e5c6ca206": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "eeee4420-f3f2-440d-b9ec-1a63e20f9eb3",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  }
+}

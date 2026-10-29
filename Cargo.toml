@@ -1,0 +1,18 @@
+[package]
+name = "voice-activity-detection"
+default-run = "voice-activity-detection"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+
+[dependencies]
+burn = { version = "=0.17.0", default-features = false, features = ["std", "ndarray"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+nalgebra = { version = "=0.35.0", default-features = false, features = ["std"] }
+eframe = { version = "=0.36.2", default-features = false, features = ["default_fonts", "glow", "x11", "wayland"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+strip = true
